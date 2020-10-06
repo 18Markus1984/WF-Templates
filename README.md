@@ -1,4 +1,4 @@
-# WF-Templates
+# Windows Form -Template
 
 "good looking" Windows Forms template for a future project
 
