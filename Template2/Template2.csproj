@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5F76903B-749C-4996-9B8E-75089D359FE1}</ProjectGuid>
+    <ProjectGuid>{BAF9F29C-3253-48A1-9A5C-79FB44B8EB34}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Templates</RootNamespace>
-    <AssemblyName>Templates</AssemblyName>
+    <RootNamespace>Template2</RootNamespace>
+    <AssemblyName>Template2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -38,6 +38,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,6 +53,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Account.Designer.cs">
+      <DependentUpon>Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analytics.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Analytics.Designer.cs">
+      <DependentUpon>Analytics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calender.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Calender.Designer.cs">
+      <DependentUpon>Calender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contact.Designer.cs">
+      <DependentUpon>Contact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,24 +90,30 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="ProgressCircle.cs">
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ProgressCircle.Designer.cs">
-      <DependentUpon>ProgressCircle.cs</DependentUpon>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RoundedPictureBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RoundedPictureBox.Designer.cs">
-      <DependentUpon>RoundedPictureBox.cs</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="Account.resx">
+      <DependentUpon>Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analytics.resx">
+      <DependentUpon>Analytics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calender.resx">
+      <DependentUpon>Calender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact.resx">
+      <DependentUpon>Contact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProgressCircle.resx">
-      <DependentUpon>ProgressCircle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,6 +125,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -103,25 +143,52 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bgtxt.png" />
+    <None Include="Resources\calendar.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btn1.png" />
+    <None Include="Resources\chart-diagram.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btn2.png" />
+    <None Include="Resources\Conact.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\envelope.png" />
+    <None Include="Resources\diagram.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\images.png" />
+    <None Include="Resources\downloads.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\keyhole.png" />
+    <None Include="Resources\home.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\padlock.png" />
+    <None Include="Resources\money-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageedit_1_7979322725.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design ohne Titel%284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_clock_226587.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_clock_2265871.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

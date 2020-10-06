@@ -117,26 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bgtxt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bgtxt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btn2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="envelope" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\envelope.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="keyhole" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\keyhole.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="padlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\padlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAAAAAAAEAIABEBAAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEAAAABAAgDAAAAa6xYVAAAAXFQ
+        TFRFLjNJLjJJLjJILj1PMIJ4MJeFMJaEMJWDMJGBMIV6Lj9QLkVUMcGeMuW0MuOzMuGxMtmsMcWgLkhW
+        McCdMuSzMuKyMuCxMtisMcSgLkhVMcCeLkRTMbaXMdaqMdSpMdWqMdCnMbiZMbaYMbeYMciiMbqaLkdV
+        Mb2cMt+wMceiLjtOLjxOLkZUMbybMcmjLkBRMb2bMcijLj5PLjNILDhSKT5dKT1cKT1dLDZPG1mQBYjm
+        BYflB4TgIU57LzJHGV6ZAJP7AJP6AY/0H1GCLzJGGV6YAJL6AJL5Ao7yH1GBLzFGJkNnFmSkFWanFWao
+        I0pzH1KCAZD1AJT8AJP8Ao7zGV+aAJT9AZD2Ao/zIkt1FGirJkRoIE9+BInoA43vA4zuGluTJ0JlJkNm
+        KzpWLjFIMt2vL1FbLk9aMb6dMd2vMcylMcukMcqkMdOpMuGyMcKfMt6wMd6wMtyuLjhML1xiL2doL2Zo
+        L2ZnL2RmL15iLjlNM4j+MwAAAo5JREFUeNrt3NdW1EAAgOFsEFRAFnETFAXsgFLUxa4gilhRxN6wYW9r
+        w/L0wq2ezY3xyMTvf4Ccme9MJnOTiSJJkiRJkiRJkiRJkiRFpTi8SkuDLuUz/YYVjU3BtXJVU1Pj6uY4
+        B4C4pXVNW3CV29va1qztyAdgXSUJrrQzSSrrNwDIBaBrCaASVkl7fgAbN3X39G7esjWotm3v7enesTOf
+        FdBX7i8PdOzaHVKDQ+X+tDW/V6AyPLL4aQ2nuGFPJddNsLJ3pBTU2W0fAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAsgGoZv8BUnyA0f0H6nfwwKGiA1QPHzlavyPHjo8VHWD8
+        xET9Tpw8NVl0gNNTZ+o3dfYcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwr
+        gOrk+aziogPEFy5OZ3TpcrXgAJMzV2av1m92PC46wKlrmTM6DQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKBgAPH1G1ndnAkP
+        4NbEVP0mflsBt+9kNX03Dg3g3v25B/Wbe/jr0OLMW3fOV6PAAKLRR4+zehL91ZbDRUpjmcWFB/i3AQAA
+        AAAAAAAAAAAAAAAAAAD+EKBr8VnDzfNxQM035Akw1P+0f+BZy2BAtTxfGnRXTgAvkjR9+ep1UL15m6bv
+        3uf3CiRJJazK7Umum2BwpZ1Jrpvg/w3Ql9ZqH2ph9bG3VktbcwGIPn3+shBcX78tLHz5/iOfU8V8sEWS
+        JEmSJEmSJEmSJEmKfgL67dMPLlJvwgAAAABJRU5ErkJggg==
+</value>
   </data>
 </root>

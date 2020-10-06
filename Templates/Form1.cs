@@ -16,5 +16,15 @@ namespace Templates
         {
             InitializeComponent();
         }
+
+        private void pictureBox4_MouseMove(object sender, MouseEventArgs e)
+        {
+            pictureBox4.BackgroundImage = Properties.Resources.btn1;
+        }
+
+        private void pictureBox4_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox4.BackgroundImage = Properties.Resources.btn2;
+        }
     }
 }
