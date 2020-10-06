@@ -4,4 +4,3 @@
 
 ## Dashboard
 ![alt text](https://github.com/18Markus1984/WF-Templates/tree/master/images/Screenshot1.png)
-❮img src="images/Screenshot 2020-10-07 000639.png" width="100" ❯
